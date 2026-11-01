@@ -358,7 +358,7 @@ function StepTime({
         </button>
       </div>
 
-      <fieldset className="mt-6">
+      <fieldset className="mt-6 min-w-0">
         <legend className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#94A3B8]">
           Day
         </legend>
@@ -398,7 +398,7 @@ function StepTime({
         </div>
       </fieldset>
 
-      <fieldset className="mt-5">
+      <fieldset className="mt-5 min-w-0">
         <legend className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#94A3B8]">
           How long
         </legend>

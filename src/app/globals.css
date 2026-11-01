@@ -133,3 +133,9 @@ dd {
     animation: none;
   }
 }
+
+/* Nothing may widen the page past the screen (keeps fixed bars pinned on phones). */
+html,
+body {
+  overflow-x: clip;
+}

@@ -110,7 +110,7 @@ export function CoachingCheckout({ planId }: { planId: string }) {
         <Link href="/coaching" className="shrink-0 text-sm font-medium text-[#C8F400] hover:underline">Change</Link>
       </div>
 
-      <fieldset className="mt-4">
+      <fieldset className="mt-4 min-w-0">
         <legend className="text-sm font-semibold text-white">Your slot</legend>
         <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
           {data.slot_hours.map((h) => (
@@ -122,7 +122,7 @@ export function CoachingCheckout({ planId }: { planId: string }) {
       </fieldset>
 
       {single ? (
-        <fieldset className="mt-4">
+        <fieldset className="mt-4 min-w-0">
           <legend className="text-sm font-semibold text-white">Day</legend>
           <div className="-mx-4 mt-2 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:px-0">
             {days.map((d) => {
