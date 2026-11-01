@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://pickleball-central.co.in
+Sitemap: https://pickleball-central.co.in/sitemap.xml
